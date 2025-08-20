@@ -4,11 +4,11 @@ import Items from "./Atmo/Items";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
-export default function Item1() {
+export default function Item_3() {
   const scrollRef = useRef<HTMLDivElement>(null);
 
   const items = [
-    { IdItem: "", ImgSrc: "/Sepatu-Speedcat-OG-Unisex-Sneakers (1).avif", Nama: "Sepatu-Speedcat-OG-Unisex-Sneakers", HargaPertama: "1800" },
+    { IdItem: "", ImgSrc: "/Sepatu-Speedcat-OG-Unisex-Sneakers (1).avif", Nama: "Sepatu-Speedcat-OG-Unisex-Sneakers", HargaPertama:"1800", HargaPromo:"" },
     { IdItem: "1", ImgSrc: "Sepatu-Suede-Speedcat-Ballet-Wanita.avif", Nama: "", HargaPertama: "1800" },
     { IdItem: "2", ImgSrc: "Sepatu-Suede-Speedcat-Ballet-Wanita (1).avif", Nama: "Sepatu-Speedcat-OG-Unisex-Sneakers", HargaPertama: "1800" },
     { IdItem: "3", ImgSrc: "Speedcat-Premium-Unisex (1).avif", Nama: "Sepatu-Speedcat-OG-Unisex-Sneakers", HargaPertama: "1800" },
@@ -73,19 +73,20 @@ export default function Item1() {
       {/* Gradient overlay (tidak bisa diklik) */}
       <div className="pointer-events-none absolute inset-0 flex justify-between">
         <div className="w-16 h-full bg-gradient-to-r from-white to-transparent"></div>
+        <div className="w-16 h-full bg-gradient-to-l from-white to-transparent"></div>
       </div>
 
       {/* Tombol panah (klik bisa) */}
-      <div className="absolute inset-0 flex justify-between items-center px-4 z-20 pointer-events-none ">
+      <div className="absolute inset-0 flex justify-between items-center px-4 z-20 pointer-events-none">
         <button
           onClick={scrollPrev}
-          className="bg-white rounded-full p-3 shadow pointer-events-auto text-black"
+          className="bg-white rounded-full p-3 shadow pointer-events-auto"
         >
           <ArrowBackIosNewIcon />
         </button>
         <button
           onClick={scrollNext}
-          className="bg-white rounded-full p-3 shadow pointer-events-auto text-black"
+          className="bg-white rounded-full p-3 shadow pointer-events-auto"
         >
           <ArrowForwardIosIcon />
         </button>

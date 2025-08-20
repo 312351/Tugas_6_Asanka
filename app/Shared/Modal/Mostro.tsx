@@ -1,6 +1,6 @@
 import Button from "../Button/button";
 
-export default function Spedcats() {
+export default function Mostro() {
   return (
     <section className="w-full min-h-[50vh] text-black py-[1vw]">
       <div className="w-full h-[50vh] flex justify-center items-center">

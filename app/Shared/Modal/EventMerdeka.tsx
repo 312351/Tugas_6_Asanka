@@ -31,7 +31,6 @@ export default function EventMerder() {
         ref={containerRef}
         className="w-full overflow-x-auto scroll-smooth snap-x snap-mandatory flex gap-x-7 h-[15vh] scrollbar-hide"
       >
-        {/* Slide 1 */}
         <div className="snap-center shrink-0 w-full h-full flex flex-col justify-center items-center text-black bg-[#EFEFEF]">
           <h1 className="text-[3vh] font-bold text-center">
             Special Hari Kemerdekaan - Extra 35% OFF *
@@ -45,7 +44,6 @@ export default function EventMerder() {
           </div>
         </div>
 
-        {/* Slide 2 */}
         <div className="snap-center shrink-0 w-full h-full flex flex-col justify-center items-center text-black bg-[#EFEFEF]">
           <h1 className="text-[3vh] font-bold text-center">
             FRESH STYLES - BUY 2 GET 20% OFF,BUY 3 GET30% OFF

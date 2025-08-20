@@ -3,7 +3,7 @@ import { useRef, useState } from 'react';
 import Play from '@mui/icons-material/PlayArrow';
 import Pause from '@mui/icons-material/Pause';
 
-export default function Video() {
+export default function Video2() {
   const VideoRef = useRef<HTMLVideoElement | null>(null);
   const [isPlaying, setIsPlaying] = useState(true); // autoplay
   const [isHovered, setIsHovered] = useState(false);
@@ -35,7 +35,7 @@ export default function Video() {
         playsInline
       >
         <source
-          src="https://images.puma.com/video/fetch/f_auto,q_auto/https://videos.puma.net/videos/fn/%7Eregional%7EVNM%7Eothers%7E25AW+-+Speedcat+%7E25AW_ECOM_SP_SPEEDCAT-Drop-2_2000x694_15s.mp4"
+          src="https://images.puma.com/video/fetch/f_auto,q_auto/https://videos.puma.net/videos/fn/~regional~VNM~others~25AW+-+Mostro~25AW_Ecom_SP_MOSTRO_Amelia-Gray-Film2_2000x694_15sec.mp4"
           type="video/mp4"
         />
         Your browser does not support the video tag.
