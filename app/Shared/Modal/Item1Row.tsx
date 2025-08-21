@@ -8,16 +8,15 @@ export default function Item1() {
   const scrollRef = useRef<HTMLDivElement>(null);
 
   const items = [
-    { IdItem: "", ImgSrc: "/Sepatu-Speedcat-OG-Unisex-Sneakers (1).avif", Nama: "Sepatu-Speedcat-OG-Unisex-Sneakers", HargaPertama: "1800" },
-    { IdItem: "1", ImgSrc: "Sepatu-Suede-Speedcat-Ballet-Wanita.avif", Nama: "", HargaPertama: "1800" },
-    { IdItem: "2", ImgSrc: "Sepatu-Suede-Speedcat-Ballet-Wanita (1).avif", Nama: "Sepatu-Speedcat-OG-Unisex-Sneakers", HargaPertama: "1800" },
-    { IdItem: "3", ImgSrc: "Speedcat-Premium-Unisex (1).avif", Nama: "Sepatu-Speedcat-OG-Unisex-Sneakers", HargaPertama: "1800" },
-    { IdItem: "4", ImgSrc: "Speedcat-Premium-Unisex.avif", Nama: "", HargaPertama: "1800" },
-    { IdItem: "6", ImgSrc: "Sepatu-Speedcat-OG-Unisex-Sneakers.avif", Nama: "", HargaPertama: "1800" },
-    { IdItem: "5", ImgSrc: "Sepatu-Speedcat-OG-Unisex-Sneakers (1).avif", Nama: "", HargaPertama: "1800" },
-    { IdItem: "7", ImgSrc: "Sepatu-Speedcat-OG-Unisex-Sneakers (2).avif", Nama: "", HargaPertama: "1800" },
-    { IdItem: "8", ImgSrc: "Sepatu-Sneaker-Speedcat-Metallic-Unisex.avif", Nama: "", HargaPertama: "1800" },
-    { IdItem: "9", ImgSrc: "Sepatu-Sneaker-Speedcat-Metallic-Unisex (1).avif", Nama: "", HargaPertama: "1800", HargaPromo:""},
+    { IdItem: "", ImgSrc: "/Sepatu-Speedcat-OG-Unisex-Sneakers (1).avif", Nama: "Sepatu-Speedcat-OG-Unisex-Sneakers", HargaPertama: "1.899.000" },
+    { IdItem: "1", ImgSrc: "Sepatu-Suede-Speedcat-Ballet-Wanita.avif", Nama: "Sepatu Suede Speedcat Ballet Wanita", HargaPertama: "1.299.000" },
+    { IdItem: "2", ImgSrc: "Sepatu-Suede-Speedcat-Ballet-Wanita (1).avif", Nama: "Sepatu Suede Speedcat Ballet Wanita", HargaPertama: "1.299.000" },
+    { IdItem: "3", ImgSrc: "Speedcat-Premium-Unisex (1).avif", Nama: "Speedcat-Premium-Unisex", HargaPertama: "1.999.000" },
+    { IdItem: "4", ImgSrc: "Speedcat-Premium-Unisex.avif", Nama: "Speedcat-Premium-Unisex", HargaPertama: "1.999.000" },
+    { IdItem: "5", ImgSrc: "Sepatu-Speedcat-OG-Unisex-Sneakers (1).avif", Nama: "Sepatu Speedcat OG Unisex Sneakers", HargaPertama: "1.899.000" },
+    { IdItem: "7", ImgSrc: "Sepatu-Speedcat-OG-Unisex-Sneakers (2).avif", Nama: "epatu Speedcat OG Unisex Sneakers", HargaPertama: "1.899.000" },
+    { IdItem: "8", ImgSrc: "Sepatu-Sneaker-Speedcat-Metallic-Unisex.avif", Nama: "Sepatu Sneaker Speedcat Metallic Unisex", HargaPertama: "1.899.000" },
+    { IdItem: "9", ImgSrc: "Sepatu-Sneaker-Speedcat-Metallic-Unisex (1).avif", Nama: "Sepatu Sneaker Speedcat Metallic Unisex", HargaPertama: "1.899.000", HargaPromo:""},
   ];
 
   const duplicatedItems = [...items, ...items, ...items];
