@@ -8,16 +8,13 @@ export default function Item_3() {
   const scrollRef = useRef<HTMLDivElement>(null);
 
   const items = [
-    { IdItem: "", ImgSrc: "/Sepatu-Speedcat-OG-Unisex-Sneakers (1).avif", Nama: "Sepatu-Speedcat-OG-Unisex-Sneakers", HargaPertama:"1800", HargaPromo:"" },
-    { IdItem: "1", ImgSrc: "Sepatu-Suede-Speedcat-Ballet-Wanita.avif", Nama: "", HargaPertama: "1800" },
-    { IdItem: "2", ImgSrc: "Sepatu-Suede-Speedcat-Ballet-Wanita (1).avif", Nama: "Sepatu-Speedcat-OG-Unisex-Sneakers", HargaPertama: "1800" },
-    { IdItem: "3", ImgSrc: "Speedcat-Premium-Unisex (1).avif", Nama: "Sepatu-Speedcat-OG-Unisex-Sneakers", HargaPertama: "1800" },
-    { IdItem: "4", ImgSrc: "Speedcat-Premium-Unisex.avif", Nama: "", HargaPertama: "1800" },
-    { IdItem: "6", ImgSrc: "Sepatu-Speedcat-OG-Unisex-Sneakers.avif", Nama: "", HargaPertama: "1800" },
-    { IdItem: "5", ImgSrc: "Sepatu-Speedcat-OG-Unisex-Sneakers (1).avif", Nama: "", HargaPertama: "1800" },
-    { IdItem: "7", ImgSrc: "Sepatu-Speedcat-OG-Unisex-Sneakers (2).avif", Nama: "", HargaPertama: "1800" },
-    { IdItem: "8", ImgSrc: "Sepatu-Sneaker-Speedcat-Metallic-Unisex.avif", Nama: "", HargaPertama: "1800" },
-    { IdItem: "9", ImgSrc: "Sepatu-Sneaker-Speedcat-Metallic-Unisex (1).avif", Nama: "", HargaPertama: "1800" },
+    { IdItem: "it01", ImgSrc: "Celana-Parasut-Kerut-DARE-TO-Wanita.avif", Nama: "Celana Parasut kerut DARE TO Wanite", HargaPertama:"1.599.000", HargaPromo:"" },
+    { IdItem: "it01", ImgSrc: "Kaus-Bersaku-GRAPHIC-Super-PUMA-Pria.avif", Nama: "Kaus Bersaku GRAPHIC Super PUMA Pria", HargaPertama:"799.000", HargaPromo:"" },
+    { IdItem: "it01", ImgSrc: "Jaket-Bomber-DARE-TO-Wanita.avif", Nama: "Jaket Bomber DARE TO Wanita", HargaPertama:"1.699.000", HargaPromo:"" },
+    { IdItem: "it01", ImgSrc: "Jaket-Bomber-Wardrobe-Essentials-Pria.avif", Nama: "Jaket Bomber Wardrobe Essentials Pria", HargaPertama:"1.669.000", HargaPromo:"" },
+    { IdItem: "it01", ImgSrc: "Polo-Lengan-Panjang-Garis-Leher-Lebar-T7-Wanita.avif", Nama: "Polo Lengan Panjang Garis Leher Lebar T7 Wanita", HargaPertama:"1.669.000", HargaPromo:"" },
+    
+    
   ];
 
   const duplicatedItems = [...items, ...items, ...items];
@@ -50,7 +47,7 @@ export default function Item_3() {
   };
 
   return (
-    <div className="w-full min-h-[5vh] bg-slate-300 relative">
+    <div className="w-full min-h-[5vh] bg-white relative">
       {/* Scroll container */}
       <div
         ref={scrollRef}

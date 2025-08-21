@@ -17,7 +17,7 @@ export default function Item1() {
     { IdItem: "5", ImgSrc: "Sepatu-Speedcat-OG-Unisex-Sneakers (1).avif", Nama: "", HargaPertama: "1800" },
     { IdItem: "7", ImgSrc: "Sepatu-Speedcat-OG-Unisex-Sneakers (2).avif", Nama: "", HargaPertama: "1800" },
     { IdItem: "8", ImgSrc: "Sepatu-Sneaker-Speedcat-Metallic-Unisex.avif", Nama: "", HargaPertama: "1800" },
-    { IdItem: "9", ImgSrc: "Sepatu-Sneaker-Speedcat-Metallic-Unisex (1).avif", Nama: "", HargaPertama: "1800" },
+    { IdItem: "9", ImgSrc: "Sepatu-Sneaker-Speedcat-Metallic-Unisex (1).avif", Nama: "", HargaPertama: "1800", HargaPromo:""},
   ];
 
   const duplicatedItems = [...items, ...items, ...items];
@@ -50,8 +50,7 @@ export default function Item1() {
   };
 
   return (
-    <div className="w-full min-h-[5vh] bg-slate-300 relative">
-      {/* Scroll container */}
+    <div className="w-full min-h-[5vh] bg-white relative">
       <div
         ref={scrollRef}
         className="w-full min-h-[5vh] py-[1vw] px-[2vw] gap-x-5 flex flex-row overflow-x-auto scrollbar-hide snap-x snap-mandatory"
